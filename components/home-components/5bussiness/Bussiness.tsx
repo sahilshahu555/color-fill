@@ -1,7 +1,7 @@
 
 type Props = {}
 
-const Bussiness = (props: Props) => {
+export const Bussiness = (props: Props) => {
   return (
     <div>Bussiness</div>
   )

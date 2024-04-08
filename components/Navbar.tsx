@@ -6,7 +6,7 @@ const Navbar = () => {
     const[menu,setMenu] = useState(false)
   return (
 
-        <nav className="NAVBAR bg-gradient-to-l from-white via-[#F0F8FB] to-white text-black  flex items-center justify-around py-4 sticky top-0">
+        <nav className="NAVBAR bg-gradient-to-r from-white  via-[#E4F4F7] via-60% to-white text-black  flex items-center justify-around py-4 sticky top-0 gap-24">
             
 
             <div className="LOGO hidden md:flex  items-center justify-center gap-0">
