@@ -24,7 +24,7 @@ export const Hero = (props: Props) => {
 
           <div className="bg-[#f9f8f8] w-full h-[22rem] rounded-xl flex flex-col justify-center items-center gap-5  ">
              <button className="bg-[#6B7CFF] text-white text-sm px-5 py-3 rounded-lg">Upload image</button>
-             <p classNmae="">hello</p>
+             <p className="">hello</p>
           </div>
           <div className="h-36"></div>
 
