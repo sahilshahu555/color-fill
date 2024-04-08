@@ -22,10 +22,9 @@ export const Hero = (props: Props) => {
 
         <div className="w-1/2 flex flex-col justify-center items-center gap-10">
 
-          <div className="bg-[#f9f8f8] w-[90%] h-[22rem] rounded-xl flex flex-col  gap-5 items-center justify-center">
-              <button className= " bg-[#6B7CFF] text-white text-sm font-semibold px-8 py-3 rounded-lg active:scale-95 hover:bg-[#313852] w-40 m-auto">Get Started
-              </button>
-              {/* <p className="text-center font-bold">or drop a file / paste URL</p> */}
+          <div className="bg-[#f9f8f8] w-full h-[22rem] rounded-xl flex flex-col justify-center items-center gap-5  ">
+             <button className="bg-[#6B7CFF] text-white text-sm px-5 py-3 rounded-lg">Upload image</button>
+             <p classNmae="">hello</p>
           </div>
           <div className="h-36"></div>
 
