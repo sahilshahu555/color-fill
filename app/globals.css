@@ -7,3 +7,12 @@
   margin:0;
   box-sizing: border-box;
 }
+
+.gradientText{
+  @apply bg-gradient-to-l from-purple-500 via-pink-500 to-yellow-500 bg-clip-text text-transparent 
+}
+
+
+.gradientText2{
+  @apply bg-gradient-to-r from-[#373FFF] to-[#3ACAF8] bg-clip-text  text-transparent p-1 w-fit
+}

@@ -3,7 +3,11 @@ type Props = {}
 
 export const HowItWorks = (props: Props) => {
   return (
-    <div>HowItWorks</div>
+    <section>
+         <h1>hello</h1>
+         <p></p>
+         <div></div>
+    </section>
   )
 }
 
