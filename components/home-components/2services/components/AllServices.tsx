@@ -5,9 +5,9 @@ type Props = {}
 
 const AllServices = (props: Props) => {
   return (
-    <section className='bg-white px-5 md:px-20'>
+    <section className='bg-white px-5 md:px-20 mt-10'>
 
-        <div className="div1 flex items-center justify-around h-[28rem] ">
+        <div className="div1 flex items-center justify-around h-[24rem] ">
 
             <div className="w-1/2 flex flex-col gap-5 ">
                 
@@ -41,7 +41,7 @@ const AllServices = (props: Props) => {
 
         </div>
         
-        <div className="div1 flex items-center justify-around h-[28rem]">
+        <div className="div1 flex items-center justify-around h-[24rem]">
 
             <div className="w-1/2 flex flex-col gap-5">
                 
