@@ -45,7 +45,7 @@ const Footer = () => {
 
         <div className='text-center  relative pb-5 '>
 
-           <div className="absolute left-[25%] md:left-[37%] -top-2 bg-[#0F172A] px-5 flex flex-col items-center justify-center gap-5 text-[#707581]">
+           <div className="absolute left-[25%]  lg:left-[37%] -top-2 bg-[#0F172A] px-5 flex flex-col items-center justify-center gap-5 text-[#707581]">
 
             <div className="flex items-center gap-5 "> 
               <p className="   text-xs ">© Copyright colorfill.co 2024</p>

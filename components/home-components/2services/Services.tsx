@@ -1,9 +1,11 @@
-
+import Transform from "./components/Transform"
 type Props = {}
 
 export const Services = (props: Props) => {
   return (
-    <div>Services</div>
+    <div>
+      <Transform/>
+    </div>
   )
 }
 
