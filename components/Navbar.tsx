@@ -18,10 +18,10 @@ const Navbar = () => {
                
                 <div className="flex gap-10 ">
                     <Link className="link" href="/">What</Link>
-                    <Link className="link" href="/">Pricing</Link> 
+                    <Link className="link" href="/pricing">Pricing</Link> 
                     <Link className="link" href="/">How</Link>
                     <Link className="link" href="/">Why</Link>
-                    <Link className="link" href="/">Contact</Link> 
+                    <Link className="link" href="/contact">Contact</Link> 
                 </div>
 
             </div>
@@ -48,18 +48,18 @@ const Navbar = () => {
 
                 <div className={` ${menu?"grid grid-cols-1 gap-3  pl-20 p-3 font-semibold ":"hidden"} ease-in duration-1000 `}onClick={()=>{setMenu(!menu)}}>
                     <Link className="link" href="/">What</Link>
-                    <Link className="link" href="/">Pricing</Link> 
+                    <Link className="link" href="/pricing">Pricing</Link> 
                     <Link className="link" href="/">How</Link>
                     <Link className="link" href="/">Why</Link>
-                    <Link className="link" href="/">Contact</Link>
+                    <Link className="link" href="/contact">Contact</Link>
 
                     <div className=" flex gap-10">
                         <Link  href="/">
-                          <button className= " link1 bg-white text-black text-sm font-semibold px-6 py-2 rounded-2xl active:scale-95 text-left">Login</button>
+                          <button className= " link1 bg-white text-black text-sm font-semibold px-6 py-2 rounded-2xl active:scale-95 text-left  hover:bg-[#313852] hover:text-white">Login</button>
                         </Link>
 
                         <Link href="/">
-                          <button className= " link1 bg-black text-white text-sm font-semibold px-6 py-2 rounded-2xl active:scale-95">Signup</button>
+                          <button className= " link1 bg-black text-white text-sm font-semibold px-6 py-2 rounded-2xl active:scale-95  hover:bg-[#313852] hover:text-white">Signup</button>
                         </Link>
                     </div>
                     

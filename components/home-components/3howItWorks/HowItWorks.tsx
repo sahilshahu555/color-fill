@@ -24,7 +24,7 @@ export const HowItWorks = (props: Props) => {
              </div>
 
              <div className=" md:w-1/2 ">
-               <Image src="/images/office.png" alt="office" width={500} height={500} className="w-[90%] md:w-[80%] m-auto h-[15rem] rounded-2xl"/>
+               <Image src="/images/office.png" alt="office" width={500} height={500} className="w-[90%] lg:w-[80%] m-auto h-[15rem] rounded-2xl"/>
              </div>
 
          </div>
