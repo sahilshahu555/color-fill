@@ -57,7 +57,7 @@ const AllFeatures = (props: Props) => {
 
         </div>
 
-        <div className="div4 flex flex-col-reverse md:flex-rowflex-row-reverse items-center justify-around md:h-[24rem] gap-10 md:gap-0">
+        <div className="div4 flex flex-col-reverse md:flex-row-reverse items-center justify-around md:h-[24rem] gap-10 md:gap-0">
 
             <div className="md:w-1/2 flex flex-col gap-5">
                 
