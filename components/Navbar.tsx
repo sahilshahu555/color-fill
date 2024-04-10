@@ -46,7 +46,7 @@ const Navbar = () => {
                     </button>
                 </div>
 
-                <div className={` ${menu?"grid grid-cols-1 gap-3  pl-20 p-3 font-semibold ":"hidden"} ease-in duration-1000 `}>
+                <div className={` ${menu?"grid grid-cols-1 gap-3  pl-20 p-3 font-semibold ":"hidden"} ease-in duration-1000 `}onClick={()=>{setMenu(!menu)}}>
                     <Link className="link" href="/">What</Link>
                     <Link className="link" href="/">Pricing</Link> 
                     <Link className="link" href="/">How</Link>

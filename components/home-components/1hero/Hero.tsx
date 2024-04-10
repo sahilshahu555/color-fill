@@ -10,9 +10,9 @@ export const Hero = (props: Props) => {
 
         <div className=" w-full md:w-1/2 flex flex-col gap-10  md:gap-6 mt-10 ">
 
-            <h1 className=" text-3xl  md:text-[30px] lg:text-[40px] font-bold w-full md:w-[80%] lg:w-[60%] tracking-wide md:leading-[40px] lg:leading-[45px]">Change color of any image automatically</h1>
+            <h1 className="text-[28px]  md:text-3xl  md:text-[30px] lg:text-[40px] font-[800] md:font-bold w-full md:w-[80%] lg:w-[60%] tracking-wide md:leading-[40px] lg:leading-[45px]">Change color of any image automatically</h1>
 
-            <p className=" w-full text-sm md:text-[11px] lg:text-[15px] md:pr-6 lg:pr-16 ">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            <p className=" w-full text-xs md:text-[11px] lg:text-[15px] md:pr-6 lg:pr-16 ">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
 
             <Link href="/">
               <button className= " bg-black text-white text-sm font-semibold px-8 py-3 rounded-lg active:scale-95 hover:bg-[#313852]">Get Started
