@@ -38,7 +38,7 @@ const Questions = (props: Props) => {
   return (
     <section className='flex flex-col md:flex-row items-start justify-around px-5 lg:px-20 m-auto bg-[#F0F2FE] w-[90%] rounded-2xl py-14 gap-10 md:gap-0'>
 
-        <div className='w-[40%] lg:w-[35%]'>
+        <div className='md:w-[40%] lg:w-[35%]'>
 
             <h1 className="text-2xl font-bold pr-10 mb-2">Frequestly Asked Questions</h1>
             <p className="text-xs md:pr-5 lg:pr-0">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt.</p>

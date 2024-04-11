@@ -4,7 +4,7 @@ type Props = {}
 
 const PricingPlan = (props: Props) => {
   return (
-    <section className="flex flex-col gap-5 md:gap-5 justify-center items-center py-10">
+    <section className="flex flex-col gap-5 md:gap-5 justify-center items-center py-10 ">
 
         <h1 className=" font-bold text-4xl md:text-4xl text-center w-[90%] md:w-[40%] lg:w-[30%] leading-[45px] mt-10 md:mt-0 tracking-wide">Pricing plans that suit you</h1>
         <p className="text-center px-10 md:px-0 md:w-[40%] lg:w-1/4 text-xs md:text-md">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
