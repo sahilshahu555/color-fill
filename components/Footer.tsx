@@ -32,11 +32,12 @@ const Footer = () => {
 
               <h1 className="text-white font-semibold mb-3 mt-4 md:mt-8">Subscribe to our Newsletter</h1>
 
-              <div className="flex md:items-center items-left justify-center ">
-                <div >
-                  <input type="text" placeholder="Enter your Email" className="bg-[#2B2E3C] px-3 py-3 text-xs" />
-                </div>
+              <div className="flex md:items-center items-left md:justify-center ">
+               
+                <input type="email" name="email" placeholder="Enter your Email" className="bg-[#2B2E3C] px-3 py-3 text-xs" required />
+
                 <button className="text-black bg-white rounded-r-lg px-6 py-3 text-xs font-semibold active:scale-95">Subscribe</button>
+                
               </div>
 
             </div>
