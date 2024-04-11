@@ -129,7 +129,7 @@ const PricingComponent = (props: Props) => {
     <section className="bg-gradient-to-tr from-[#E6F5F6]  to-[#F1F9FB]">
       <PricingPlan/>
 
-      <div className="flex flex-col md:flex-row items-center justify-center mt-5 mb-16 w-[90%] m-auto  gap-5 lg:gap-14 ">
+      <div className="flex flex-col md:flex-row items-center justify-center mt-5 mb-16 w-[90%] m-auto gap-14 md:gap-5 lg:gap-14 ">
 
         {plans.map((plan:PlanType,index)=>( <Card plan={plan} key={plan.id} /> ))}
 

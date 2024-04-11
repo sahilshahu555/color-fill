@@ -21,7 +21,7 @@ type CardType={
 const Card = ({plan}: CardType) => {
   const{icon,title,planType,benefits,desc,amount,period}=plan;
   return (
-    <div className='flex flex-col items-start  h-[32rem] bg-white hover:bg-gradient-to-r from-[#D7E7F9] to-[#D5F4EC] rounded-2xl w-[90%]  lg::w-[24%] hover:ring-2 ring-blue-500'>
+    <div className='flex flex-col items-start  h-[32rem] bg-white hover:bg-gradient-to-r from-[#D7E7F9] to-[#D5F4EC] rounded-2xl w-[90%]  lg:w-[24%] hover:ring-2 ring-blue-500'>
 
       <div className="div1 flex items-center gap-4 border-b border-[#D8D8D8] w-full pl-8 py-6">
 
