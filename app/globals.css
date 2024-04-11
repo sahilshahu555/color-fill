@@ -6,7 +6,10 @@
   padding:0;
   margin:0;
   box-sizing: border-box;
+  scroll-behavior: smooth;
 }
+
+
 
 .gradientText{
   @apply bg-gradient-to-l from-purple-500 via-pink-500 to-yellow-500 bg-clip-text text-transparent 

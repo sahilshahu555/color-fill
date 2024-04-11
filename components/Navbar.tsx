@@ -6,22 +6,24 @@ const Navbar = () => {
     const[menu,setMenu] = useState(false)
   return (
 
-        <nav className="NAVBAR bg-white text-black  flex items-center justify-around py-4 sticky top-0 
+        <nav id="nav" className="NAVBAR bg-white text-black  flex items-center justify-around py-4 sticky top-0 
          lg:gap-24 ">
             
 
             <div className="LOGO hidden md:flex  items-center justify-center gap-0">
-                <Image src="/icons/Logo.svg"  alt="logo" className="w-10 h-10" width={50} height={50}/>
+               <Link href="/#">
+                 <Image src="/icons/Logo.svg"  alt="logo" className="w-10 h-10" width={50} height={50}/>
+               </Link >
             </div>
 
             <div className="LAPTOP-VIEW hidden md:flex justify-center  items-center   ">
                
                 <div className="flex gap-10 ">
-                    <Link className="link" href="/">What</Link>
-                    <Link className="link" href="/pricing">Pricing</Link> 
-                    <Link className="link" href="/">How</Link>
-                    <Link className="link" href="/">Why</Link>
-                    <Link className="link" href="/contact">Contact</Link> 
+                    <Link  href="/#what">What</Link>
+                    <Link  href="/pricing">Pricing</Link> 
+                    <Link  href="/#how">How</Link>
+                    <Link  href="/#why">Why</Link>
+                    <Link  href="/contact">Contact</Link> 
                 </div>
 
             </div>
@@ -47,11 +49,11 @@ const Navbar = () => {
                 </div>
 
                 <div className={` ${menu?"grid grid-cols-1 gap-3  pl-20 p-3 font-semibold ":"hidden"} ease-in duration-1000 `}onClick={()=>{setMenu(!menu)}}>
-                    <Link className="link" href="/">What</Link>
-                    <Link className="link" href="/pricing">Pricing</Link> 
-                    <Link className="link" href="/">How</Link>
-                    <Link className="link" href="/">Why</Link>
-                    <Link className="link" href="/contact">Contact</Link>
+                    <Link  href="/#what">What</Link>
+                    <Link  href="/pricing">Pricing</Link> 
+                    <Link  href="/#how">How</Link>
+                    <Link  href="/#why">Why</Link>
+                    <Link  href="/contact">Contact</Link> 
 
                     <div className=" flex gap-10">
                         <Link  href="/">

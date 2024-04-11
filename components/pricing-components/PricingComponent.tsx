@@ -126,7 +126,7 @@ const PricingComponent = (props: Props) => {
   ]
 
   return (
-    <section className="bg-gradient-to-tr from-[#E6F5F6]  to-[#F1F9FB]">
+    <section className="bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] from-[#d8ebef] to-white">
       <PricingPlan/>
 
       <div className="flex flex-col md:flex-row items-center justify-center mt-5 mb-16 w-[90%] m-auto gap-14 md:gap-5 lg:gap-14 ">

@@ -4,9 +4,9 @@ type Props = {}
 
 const AllFeatures = (props: Props) => {
   return (
-    <section className='bg-white px-5 md:px-20 mt-10 flex flex-col gap-16 md:gap-0'>
+    <section className='bg-white  mt-10 flex flex-col  md:gap-0'>
 
-        <div className="div1 flex flex-col-reverse md:flex-row  items-center justify-around md:h-[24rem]  ">
+        <div className="div1 px-5 md:px-20 flex flex-col-reverse md:flex-row  items-center justify-around md:h-[24rem] bg-[radial-gradient(ellipse_at_left_bottom,_var(--tw-gradient-stops))] from-[#C7E8F3] via-white to-white ">
 
             <div className="md:w-1/2 flex flex-col gap-5 ">
                 
@@ -23,7 +23,7 @@ const AllFeatures = (props: Props) => {
 
         </div>
 
-        <div className="div2 flex flex-col-reverse md:flex-row-reverse items-center justify-around md:h-[24rem] gap-10 md:gap-0">
+        <div className="div2 py-10 md:py-0 px-5 md:px-20 flex flex-col-reverse md:flex-row-reverse items-center justify-around md:h-[24rem] gap-10 md:gap-0 bg-[radial-gradient(ellipse_at_left_top,_var(--tw-gradient-stops))] from-[#C7E8F3] via-white to-white">
 
             <div className="md:w-1/2 flex flex-col gap-5">
                 
@@ -35,12 +35,12 @@ const AllFeatures = (props: Props) => {
             </div>
 
             <div className=" md:w-1/2 flex items-center justify-center md:justify-start">
-                <Image src="/icons/service2.svg" alt="service1" width={500} height={500} className="w-[60%]"/>
+                <Image src="/icons/service2.svg" alt="service1" width={500} height={500} className="w-[52%]"/>
             </div>
 
         </div>
         
-        <div className="div3 flex flex-col-reverse md:flex-row items-center justify-around md:h-[24rem]">
+        <div className="div3 px-5 md:px-20 flex flex-col-reverse md:flex-row items-center justify-around md:h-[24rem]">
 
             <div className="md:w-1/2 flex flex-col gap-5">
                 
@@ -51,13 +51,13 @@ const AllFeatures = (props: Props) => {
 
             </div>
 
-            <div className=" md:w-1/2 flex items-center justify-center">
-                <Image src="/icons/service3.svg" alt="service1" width={500} height={500} className="w-[60%]"/>
+            <div className=" md:w-1/2 flex items-center justify-center bg-[radial-gradient(ellipse_at_center_center,_var(--tw-gradient-stops))] from-[#C7E8F3] via-white to-white">
+                <Image src="/icons/service3.svg" alt="service1" width={500} height={500} className="w-[65%]"/>
             </div>
 
         </div>
 
-        <div className="div4 flex flex-col-reverse md:flex-row-reverse items-center justify-around md:h-[24rem] gap-10 md:gap-0">
+        <div className="div4 pt-10 md:pt-0 px-5 md:px-20 flex flex-col-reverse md:flex-row-reverse items-center justify-around md:h-[24rem] gap-10 md:gap-0">
 
             <div className="md:w-1/2 flex flex-col gap-5">
                 
@@ -69,7 +69,7 @@ const AllFeatures = (props: Props) => {
             </div>
 
             <div className=" md:w-1/2 flex items-center justify-center md:justify-start">
-                <Image src="/icons/service2.svg" alt="service1" width={500} height={500} className="w-[60%]"/>
+                <Image src="/icons/service2.svg" alt="service1" width={500} height={500} className="w-[52%]"/>
             </div>
 
         </div>

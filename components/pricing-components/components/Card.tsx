@@ -1,5 +1,8 @@
+"use client"
+
 import Image from 'next/image'
 import Link from "next/link";
+
 type PlanType = {
   id:string,
   icon:string,
@@ -47,7 +50,7 @@ const Card = ({plan}: CardType) => {
       <p className="text-center w-full text-[9px] text-[#0f1728]">{period}</p>
       <div className="flex items-center justify-center w-full">
         <Link href="">
-            <button className= " bg-black text-white text-xs font-semibold px-8 py-3.5 rounded-lg active:scale-95 hover:bg-[#313852] mt-5  m-auto ">Get Started</button>
+            <button className= " bg-black text-white text-xs font-semibold px-8 py-3.5 rounded-lg active:scale-95 hover:bg-[#313852] mt-5  m-auto " onClick={(e)=>e.preventDefault()}>Get Started</button>
         </Link>
       </div>
 

@@ -6,7 +6,7 @@ type Props = {}
 export const Hero = (props: Props) => {
   return (
 
-    <div className="HERO flex flex-col md:flex-row justify-between items-start  py-[2.5rem] bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] from-[#d8ebef] to-white   gap-20 md:gap-0 px-5 md:px-20">
+    <div  className="HERO flex flex-col md:flex-row justify-between items-start  py-[2.5rem] bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] from-[#d8ebef] to-white   gap-20 md:gap-0 px-5 md:px-20">
 
         <div className=" w-full md:w-1/2 flex flex-col gap-10  md:gap-6 mt-10 ">
 
@@ -28,7 +28,7 @@ export const Hero = (props: Props) => {
              <p className="font-bold flex flex-col items-center"><span>or</span>drop a file/ paste URL</p>
           </div>
 
-          <div className=" flex items-center justify-between my-2">
+          <div id="what" className=" flex items-center justify-between my-2">
 
             <p className="w-1/4 text-xs md:text-xs lg:text-sm">{"or try one of these images"}</p>
             <Image src="/images/home-image1.png" alt="home-image1" width={100} height={100} className="w-14  lg:w-20 "/>

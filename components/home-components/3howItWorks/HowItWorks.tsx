@@ -5,7 +5,7 @@ type Props = {}
 
 export const HowItWorks = (props: Props) => {
   return (
-    <section className="flex flex-col items-center justify-center text-center gap-10 mt-10 mb-20">
+    <section  className="flex flex-col items-center justify-center text-center gap-10 pt-10 mb-20 ">
 
          <h1 className="text-3xl lg:text-4xl w-[75%] font-bold ">How it works</h1>
          <p className="text-[13px] lg:pr-20 w-[80%] md:w-[70%] lg:w-1/2 lg:ml-14">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor.</p>
@@ -23,10 +23,10 @@ export const HowItWorks = (props: Props) => {
 
              </div>
 
-             <div className=" md:w-1/2 ">
-               <Image src="/images/office.png" alt="office" width={500} height={500} className="w-[90%] lg:w-[80%] m-auto h-[15rem] rounded-2xl"/>
+             <div id="why" className=" md:w-1/2 ">
+               <Image src="/images/office.png" alt="office" width={500} height={500} className="w-[90%] lg:w-[80%] m-auto h-[15rem] rounded-2xl "/>
              </div>
-
+             
          </div>
          
     </section>
